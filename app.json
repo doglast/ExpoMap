@@ -26,7 +26,12 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "config":{
+        "googleMaps":{
+          "apiKey":""
+        }
+      }
     }
   }
 }
