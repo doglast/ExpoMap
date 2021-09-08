@@ -14,6 +14,14 @@ const Map =()=>{
         longitude:-43.9568007
       }}
     >
+        <MapView.Marker
+          coordinate={{
+            latitude:-19.9301121,
+            longitude:-43.9570094
+          }}
+          title = {"Van de Velde, Contorno"}
+          description = {"Ponto de ônibus em frente a barbearia"}
+        />
     </MapView>
   )
 }
